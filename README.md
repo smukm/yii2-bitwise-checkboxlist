@@ -14,9 +14,9 @@ The following code in a view file would render a group of checkboxes:
 
 ```php
 <?= smukm\bcl\BitwiseCheckboxList::widget([
-'name' => 'attributeName',
-'data' => ['1' => 'New', '2' => 'Paid', '4' => 'Delivered', '8' => 'Complete'],
-'columns' => 2,
+    'name' => 'attributeName',
+    'data' => ['1' => 'New', '2' => 'Paid', '4' => 'Delivered', '8' => 'Complete'],
+    'columns' => 2,
 ]) ?>
 ```
 
