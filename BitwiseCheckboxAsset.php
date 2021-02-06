@@ -7,7 +7,7 @@ use yii\web\JqueryAsset;
 class BitwiseCheckboxAsset extends AssetBundle
 {
 
-    public $sourcePath = '@backend/widgets/BitwiseCheckboxList/assets';
+    public $sourcePath = '@smukm/bcl/BitwiseCheckboxList/assets';
     public $js = [
         YII_ENV_DEV ? 'bw_checkboxlist.js' : 'bw_checkboxlist.min.js',
     ];
