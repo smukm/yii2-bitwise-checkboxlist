@@ -1,5 +1,5 @@
 <?php
-namespace backend\widgets\BitwiseCheckboxList;
+namespace smukm\bcl\BitwiseCheckboxList;
 
 use yii\web\AssetBundle;
 use yii\web\JqueryAsset;
