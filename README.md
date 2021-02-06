@@ -7,7 +7,7 @@ This extension renders an input with [jQuery MiniColors](https://github.com/clav
 Install extension through [composer](http://getcomposer.org/):
 
 ```
-composer require vv68/yii2-bitwise-checkboxlist
+composer require smukm/yii2-bitwise-checkboxlist
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ composer require vv68/yii2-bitwise-checkboxlist
 The following code in a view file would render a group of checkboxes:
 
 ```php
-<?= vv68\bcl\BitwiseCheckboxList::widget([
+<?= smukm\bcl\BitwiseCheckboxList::widget([
 'name' => 'attributeName',
 'data' => ['1' => 'New', '2' => 'Paid', '4' => 'Delivered', '8' => 'Complete'],
 'columns' => 2,
@@ -25,7 +25,7 @@ The following code in a view file would render a group of checkboxes:
 If you want to use this input widget in an ActiveForm, it can be done like this:
 
 ```php
-<?= $form->field($model, 'attributeName')->widget(vv68\bcl\BitwiseCheckboxList::class, [
+<?= $form->field($model, 'attributeName')->widget(smukm\bcl\BitwiseCheckboxList::class, [
     'data' => ['1' => 'New', '2' => 'Paid', '4' => 'Delivered', '8' => 'Complete'],
 ]) ?>
 ```
