@@ -1,5 +1,5 @@
 <?php
-namespace backend\widgets\BitwiseCheckboxList;
+namespace smukm\bcl\BitwiseCheckboxList;
 
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
