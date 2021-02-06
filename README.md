@@ -1,7 +1,5 @@
 # Bitwise checkbox list for Yii 2
 
-This extension renders an input with [jQuery MiniColors](https://github.com/claviska/jquery-minicolors).
-
 ## Installation
 
 Install extension through [composer](http://getcomposer.org/):
