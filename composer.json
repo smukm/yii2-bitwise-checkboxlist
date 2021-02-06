@@ -3,7 +3,7 @@
   "description": "Bitwise checkbox`s list for Yii2",
   "keywords": ["yii2", "widget", "bitwise", "checkbox list"],
   "type": "yii2-extension",
-  "version": 0.0.2,
+  "version": "0.0.2",
   "license": "MIT",
   "authors": [
     {
