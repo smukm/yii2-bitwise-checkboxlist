@@ -1,0 +1,26 @@
+{
+  "name": "smukm/yii2-bitwise-checkboxlist",
+  "description": "Bitwise checkbox`s list for Yii2",
+  "keywords": ["yii2", "widget", "bitwise", "checkbox list"],
+  "type": "yii2-extension",
+  "version": 0.0.2,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Valery Puzanov",
+      "email": "vv68@bk.ru"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/smukm/yii2-bitwise-checkboxlist/issues",
+    "source": "https://github.com/smukm/yii2-bitwise-checkboxlist"
+  },
+  "require": {
+    "yiisoft/yii2": "~2.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "smukm\\bitwise-checkboxlist\\": ""
+    }
+  }
+}
