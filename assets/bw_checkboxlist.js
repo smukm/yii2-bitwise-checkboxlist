@@ -1,7 +1,7 @@
-if (typeof vv68 === 'undefined' || !vv68) {
-    var vv68 = {};
+if (typeof smkm === 'undefined' || !smkm) {
+    var smkm = {};
 }
-vv68.bwWidget = (function ($) {
+smkm.bwWidget = (function ($) {
     'use strict';
     return {
         register: function (elementId) {

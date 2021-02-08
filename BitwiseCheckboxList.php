@@ -53,8 +53,6 @@ class BitwiseCheckboxList extends InputWidget
         parent::init();
 
         $this->initialize();
-
-
     }
 
     public function run(): string
@@ -129,6 +127,6 @@ class BitwiseCheckboxList extends InputWidget
         $view = $this->getView();
         BitwiseCheckboxAsset::register($view);
         $element_id = $this->options['id'];
-        $view->registerJs("vv68.bwWidget.register('$element_id');", View::POS_END);
+        $view->registerJs("smkm.bwWidget.register('$element_id');", View::POS_END);
     }
 }
